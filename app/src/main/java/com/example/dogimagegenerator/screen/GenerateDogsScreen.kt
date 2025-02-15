@@ -45,6 +45,9 @@ fun GenerateDogsScreen(navController: NavController, viewModel: DogViewModel) {
         modifier = Modifier.fillMaxSize().padding(top = 100.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
+
+        Spacer(modifier = Modifier.height(100.dp))
+
         Column(
             modifier = Modifier.height(250.dp)
                 .fillMaxWidth(),

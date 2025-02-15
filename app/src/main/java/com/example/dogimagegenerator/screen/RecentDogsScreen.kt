@@ -43,7 +43,7 @@ fun RecentDogsScreen(navController: NavController, viewModel: DogViewModel) {
 
     Column(
         modifier = Modifier.fillMaxSize()
-            .padding( start = 16.dp, end = 16.dp)
+            .padding( start = 16.dp, end = 16.dp, top = 50.dp)
     )
     {
         Spacer(modifier = Modifier.height(100.dp))
@@ -67,7 +67,7 @@ fun RecentDogsScreen(navController: NavController, viewModel: DogViewModel) {
                 }
             }
 
-        Spacer(modifier = Modifier.height(50.dp))
+        Spacer(modifier = Modifier.height(25.dp))
 
 
         val interactionSource = remember { MutableInteractionSource() }
